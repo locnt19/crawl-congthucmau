@@ -4,7 +4,17 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const download = require("download");
 
-main();
+// main();
+
+// const pathPresets = path.join(__dirname, "public", "presets");
+
+// const allGoogleDriveDownloadFile = JSON.parse(
+//   fs.readFileSync("public/google-drive-download.20210630-160440.json", {
+//     encoding: "utf-8"
+//   })
+// );
+
+// downloadAllPreset(allGoogleDriveDownloadFile, pathPresets);
 
 async function main() {
   //#region DECLARE
